@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #ccf7ec;
+    --my-contrast-color: #0c403f;
+}
+
+[title]:hover::after {
+    content: attr(title);
+    background-color: var(--my-contrast-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 16px;
+
+}
+
+.battle {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

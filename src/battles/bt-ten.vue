@@ -8,7 +8,7 @@
         </div>
 
     </div>
-</template>
+</template> 
 <script>
 import '../common.css'
 export default {

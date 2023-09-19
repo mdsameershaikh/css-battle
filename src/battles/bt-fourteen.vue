@@ -1,44 +1,45 @@
 <template>
     <div class="battle">
-        <div id='a'>
+        <div id="a">
             <div id='i'></div>
             <div id='i'></div>
             <div id='i'></div>
             <div id='i'></div>
         </div>
-
     </div>
 </template>
 <script>
 import '../common.css'
 export default {
-    namee: 'battle-tem',
+    namee: 'battle-forteen',
 }
 
 
 </script>
 <style scoped >
 .battle {
-    background-color: #E3516E;
+    background: #998235;
 }
 
 #a {
-    height: 200px;
-    width: 200px;
+    margin-top: 52px;
+    height: 145px;
+    width: 145px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    clip-path: circle();
+    transform: rotate(-45deg);
 }
 
+
 #i:nth-child(1) {
-    background: #51B5A9;
+    background: #0B2429;
 }
 
 #i:nth-child(2) {
-    background: #FADE8B;
+    background: #0B2429;
 }
 
-#i:nth-child(3) {
-    background: #F7F3D7;
+#i:nth-child(4) {
+    background: #FCBE5C;
 }
 </style>

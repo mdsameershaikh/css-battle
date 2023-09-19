@@ -9,6 +9,7 @@
             <battle-seven />
             <battle-three />
             <battle-five />
+            <battle-ten />
             <battle-six />
             <battle-nine />
             <battle-eight />
@@ -22,15 +23,16 @@
     </div>
 </template>
 <script>
-import BattleOne from '../battles/bt-one.vue'
-import BattleTwo from '../battles/bt-two.vue'
-import BattleThree from '../battles/bt-three.vue'
-import BattleFour from '../battles/bt-four.vue'
-import BattleFive from '../battles/bt-five.vue'
-import BattleSix from '../battles/bt-six.vue'
-import BattleSeven from '../battles/bt-seven.vue'
-import BattleEight from '../battles/bt-eight.vue'
-import BattleNine from '../battles/bt-nine.vue'
+import BattleOne from '@/battles/bt-one.vue'
+import BattleTwo from '@/battles/bt-two.vue'
+import BattleThree from '@/battles/bt-three.vue'
+import BattleFour from '@/battles/bt-four.vue'
+import BattleFive from '@/battles/bt-five.vue'
+import BattleSix from '@/battles/bt-six.vue'
+import BattleSeven from '@/battles/bt-seven.vue'
+import BattleEight from '@/battles/bt-eight.vue'
+import BattleNine from '@/battles/bt-nine.vue'
+import BattleTen from '@/battles/bt-ten.vue'
 export default {
 
     name: 'card-lists',
@@ -43,7 +45,8 @@ export default {
         'battle-six': BattleSix,
         'battle-seven': BattleSeven,
         'battle-eight': BattleEight,
-        'battle-nine': BattleNine
+        'battle-nine': BattleNine,
+        'battle-ten': BattleTen
 
     },
     props: [
@@ -74,6 +77,7 @@ export default {
     font-size: 64px;
     border-bottom: 1px dashed var(--my-contrast-color);
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 

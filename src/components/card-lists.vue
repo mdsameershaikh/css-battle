@@ -94,7 +94,8 @@ export default {
     font-size: 64px;
     border-bottom: 1px dashed var(--my-contrast-color);
     border-radius: 5px;
-    margin-bottom: 5px;
+    padding: 15px;
+    margin: 5px;
 }
 
 

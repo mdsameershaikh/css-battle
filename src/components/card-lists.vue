@@ -17,6 +17,7 @@
             <battle-fifteen />
             <battle-six />
             <battle-seventeen />
+            <battle-eighteen />
             <battle-eleven />
             <battle-nine />
             <battle-eight />
@@ -48,6 +49,7 @@ import BattleFourteen from '@/battles/bt-fourteen.vue'
 import BattleFifteen from '@/battles/bt-fifteen.vue'
 import BattleSixteen from '@/battles/bt-sixteen.vue'
 import BattleSeventeen from '@/battles/bt-seventeen.vue'
+import BattleEighteen from '@/battles/bt-eighteen.vue'
 export default {
 
     name: 'card-lists',
@@ -68,7 +70,8 @@ export default {
         'battle-fourteen': BattleFourteen,
         'battle-fifteen': BattleFifteen,
         'battle-sixteen': BattleSixteen,
-        'battle-seventeen': BattleSeventeen
+        'battle-seventeen': BattleSeventeen,
+        'battle-eighteen': BattleEighteen
 
 
     },

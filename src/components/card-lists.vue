@@ -6,6 +6,7 @@
         </div>
 
         <div class="battle-container">
+            <battle-21 />
             <battle-seven />
             <battle-twelve />
             <battle-three />
@@ -54,6 +55,7 @@ import BattleSeventeen from '@/battles/bt-seventeen.vue'
 import BattleEighteen from '@/battles/bt-eighteen.vue'
 import BattleNinteen from '@/battles/bt-ninteen.vue'
 import BattleTwenty from '@/battles/bt-twenty.vue'
+import Battle21 from '@/battles/bt-21.vue'
 export default {
 
     name: 'card-lists',
@@ -77,7 +79,8 @@ export default {
         'battle-seventeen': BattleSeventeen,
         'battle-eighteen': BattleEighteen,
         'battle-ninteen': BattleNinteen,
-        'battle-twenty': BattleTwenty
+        'battle-twenty': BattleTwenty,
+        'battle-21': Battle21
 
 
     },

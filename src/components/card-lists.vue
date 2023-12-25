@@ -1,7 +1,7 @@
 <template>
     <div class="cards-container">
         <div id="sticky-header">
-            <h1 class="title" title="Kala kendra">My Art Gallery</h1>
+            <h1 class="title" title="Kala kendra">{{ title | capitalizeFirstLetterOfEachWord }}</h1>
 
         </div>
 
@@ -99,7 +99,8 @@ export default {
     ],
     data() {
         return {
-            headerHeight: ''
+            headerHeight: '',
+            title: 'my art gallery'
         }
     },
     mounted() {
